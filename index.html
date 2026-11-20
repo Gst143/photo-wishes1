@@ -1,44 +1,290 @@
 <!doctype html>
 <html lang="hi">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#160b25">
-<meta property="og:title" content="Create a Beautiful Photo Wish ✨">
-<meta property="og:description" content="Add a photo, write your wish, and reveal a colourful surprise.">
-<title>Photo Wishes Studio ✨</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#120b25">
+<meta property="og:title" content="Photo Wishes Studio Pro">
+<meta property="og:description" content="Apni photo se beautiful wishes poster banayein — filters, frames aur HD PNG download ke saath.">
+<title>Photo Wishes Studio Pro ✨</title>
 <style>
-:root{--a:#ff65ad;--b:#ffc95e;--c:#8b6cff;--bg:#160b25}*{box-sizing:border-box}body{margin:0;min-height:100svh;color:#fff;font-family:system-ui,-apple-system,Segoe UI,sans-serif;background:radial-gradient(ellipse at 15% 0%,#542153,transparent 42%),radial-gradient(ellipse at 90% 85%,#26256b,transparent 40%),linear-gradient(145deg,#100812,#21102c 60%,#100812);overflow-x:hidden}body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.17;background-image:radial-gradient(#fff .7px,transparent .9px);background-size:33px 33px}.wrap{position:relative;z-index:1;min-height:100svh;display:grid;place-items:center;padding:20px 13px}.card{width:min(100%,620px);padding:25px 18px;border:1px solid #fff2;border-radius:26px;background:linear-gradient(145deg,#ffffff17,#ffffff06);box-shadow:0 25px 80px #0007;backdrop-filter:blur(12px);animation:rise .7s ease both}.brand{text-align:center;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#ffe1a5}.hero{text-align:center}.orb{margin:14px auto;width:72px;height:72px;border-radius:50%;display:grid;place-items:center;font-size:32px;background:linear-gradient(135deg,var(--a),var(--c));box-shadow:0 0 35px #ff65ad77;animation:pulse 2.2s infinite}h1{font-size:clamp(2rem,8vw,3.25rem);line-height:1.05;font-weight:800;margin:12px 0;background:linear-gradient(90deg,#fff,var(--b),var(--a),#c4b5fd);-webkit-background-clip:text;background-clip:text;color:transparent}.intro{font-size:14px;line-height:1.65;color:#e8d7f0;max-width:450px;margin:0 auto 20px}.formgrid{display:grid;grid-template-columns:1fr;gap:13px}.field{display:flex;flex-direction:column;gap:7px;text-align:left}.field label{font-size:12px;color:#f4d8ee;font-weight:700;letter-spacing:.03em}.field input,.field select,.field textarea{width:100%;border:1px solid #ffffff26;border-radius:13px;padding:12px 13px;color:#fff;background:#190e27;font:14px system-ui;outline:none}.field textarea{resize:vertical;min-height:78px}.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--a);box-shadow:0 0 0 3px #ff65ad22}.field input[type=color]{padding:4px;height:43px}.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}.upload{border:1px dashed #ffb8d7a8;border-radius:17px;padding:16px;text-align:center;background:#ffffff06}.upload label{display:inline-block;margin-top:8px;padding:12px 17px;border-radius:999px;background:linear-gradient(100deg,var(--b),var(--a));color:#35112d;font-size:13px;font-weight:800;cursor:pointer}.upload input{display:none}.selected{font-size:11px;color:#d9bfdf;margin-top:9px;overflow-wrap:anywhere}.btn{border:0;border-radius:999px;padding:14px 20px;background:linear-gradient(100deg,var(--b),var(--a),#b8a2ff);color:#2b1030;font-weight:850;font-size:14px;cursor:pointer;box-shadow:0 8px 25px #ff65ad30}.btn:disabled{opacity:.4;cursor:not-allowed}.secondary{border:1px solid #ffffff38;border-radius:999px;padding:12px 16px;color:#fff;background:#ffffff0b;font-size:13px;cursor:pointer}.wide{width:100%;margin-top:15px}.small{font-size:11px;line-height:1.6;color:#cbb3d7;text-align:center;margin-top:13px}#result{display:none;width:min(100%,620px);text-align:center}.poster{position:relative;width:min(100%,440px);min-height:510px;margin:22px auto 18px;border-radius:27px;padding:9px;background:linear-gradient(135deg,var(--a),var(--b),var(--c));box-shadow:0 0 40px #ff65ad66,0 25px 65px #0008;overflow:hidden;animation:posterIn .9s cubic-bezier(.2,.8,.2,1) both}.posterInner{position:relative;min-height:492px;height:100%;border-radius:20px;overflow:hidden;background:radial-gradient(circle at 20% 15%,#ffffff24,transparent 30%),linear-gradient(145deg,#24103a,#140d26 60%,#39143a);display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding:23px 18px 25px}.posterInner:before{content:"";position:absolute;inset:9px;border:1px solid #ffffff55;border-radius:15px;pointer-events:none}.sparkles{position:absolute;inset:0;pointer-events:none;background-image:radial-gradient(#fff 1px,transparent 1.5px),radial-gradient(var(--b) 1px,transparent 1.5px);background-size:37px 43px,61px 59px;background-position:0 0,20px 16px;opacity:.45;animation:twinkle 3s ease-in-out infinite alternate}.wishTop{position:relative;z-index:1;font-size:clamp(1.8rem,8vw,3rem);font-weight:950;line-height:1.05;white-space:pre-wrap;overflow-wrap:anywhere;text-align:center;text-shadow:0 3px 20px #0007;background:linear-gradient(90deg,var(--b),#fff,var(--a),#c9b7ff);-webkit-background-clip:text;background-clip:text;color:transparent;margin:4px 0 15px}.wishPhoto{position:relative;z-index:1;width:min(70%,260px);aspect-ratio:4/5;border-radius:20px;padding:5px;background:linear-gradient(145deg,var(--b),var(--a),var(--c));box-shadow:0 10px 35px #0008;overflow:hidden}.wishPhoto img{width:100%;height:100%;object-fit:cover;border-radius:15px;display:block}.wishMessage{position:relative;z-index:1;white-space:pre-wrap;overflow-wrap:anywhere;font-size:clamp(1rem,4.3vw,1.35rem);font-weight:800;line-height:1.4;margin:17px 0 6px;text-shadow:0 2px 12px #0008;background:linear-gradient(90deg,#fff,var(--b),var(--a));-webkit-background-clip:text;background-clip:text;color:transparent}.wishFrom{position:relative;z-index:1;font-size:13px;color:#fff;text-shadow:0 2px 8px #0009;margin-top:10px;white-space:pre-wrap}.resultActions{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}.note{font-size:11px;color:#cbb3d7;line-height:1.6}.float{position:fixed;bottom:-45px;pointer-events:none;z-index:0;animation:floatUp linear forwards;text-shadow:0 0 15px var(--a)}.hidden{display:none!important}@keyframes rise{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:translateY(0)}}@keyframes pulse{50%{transform:scale(1.07)}}@keyframes posterIn{from{opacity:0;transform:scale(.78) rotate(-2deg);filter:blur(7px)}to{opacity:1;transform:scale(1);filter:blur(0)}}@keyframes floatUp{0%{transform:translateY(0) rotate(0);opacity:0}12%{opacity:.9}100%{transform:translateY(-115svh) rotate(40deg);opacity:0}}@keyframes twinkle{to{opacity:.16;transform:scale(1.04)}}@media(min-width:520px){.card{padding:30px}.formgrid{grid-template-columns:1fr 1fr}.span2{grid-column:1/-1}}@media(prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;animation-iteration-count:1!important}}
-</style></head><body><main class="wrap">
-<section class="card" id="maker"><div class="hero"><div class="brand">✨ Photo Wishes Studio ✨</div><div class="orb">🎁</div><h1>Create Your Magic</h1><p class="intro">Photo choose karein, colourful text likhein aur birthday, festival ya special wishes ka animated poster banayein.</p></div>
-<div class="formgrid">
-<div class="field span2"><label>1. PHOTO SELECT KAREIN</label><div class="upload"><div style="font-size:28px">🖼️ 💖</div><div style="font-size:13px;color:#f4d8ee;margin-top:4px">Gallery se favourite photo choose karein</div><label>＋ Choose Photo<input id="photoInput" type="file" accept="image/*"></label><div class="selected" id="fileName">Photo select nahi hui</div></div></div>
-<div class="field"><label for="preset">2. WISH TYPE</label><select id="preset"><option value="custom">Custom Message</option><option value="birthday">🎂 Birthday</option><option value="anniversary">💞 Anniversary</option><option value="love">❤️ Love / Romantic</option><option value="diwali">🪔 Diwali</option><option value="holi">🌈 Holi</option><option value="newyear">🎉 New Year</option><option value="wedding">💍 Wedding</option><option value="congrats">🎊 Congratulations</option><option value="goodmorning">☀️ Good Morning</option><option value="thankyou">🙏 Thank You</option></select></div>
-<div class="field"><label for="recipient">3. KISKE LIYE? (NAME)</label><input id="recipient" maxlength="50" placeholder="e.g. Meri Jaan / Rahul"></div>
-<div class="field span2"><label for="headline">4. COLOURFUL HEADING</label><input id="headline" maxlength="70" value="Happy Birthday!" placeholder="e.g. Happy Birthday, Meri Jaan!"></div>
-<div class="field span2"><label for="message">5. APNA MESSAGE</label><textarea id="message" maxlength="260">Tumhari zindagi khushiyon, pyaar aur kamyabi se bhari rahe. Hamesha muskurate raho! ❤️</textarea></div>
-<div class="field"><label for="sender">6. FROM / BHEJNE WALE KA NAAM</label><input id="sender" maxlength="50" placeholder="With love, Taniya"></div>
-<div class="field"><label for="style">7. TEXT STYLE</label><select id="style"><option value="glow">Neon Glow ✨</option><option value="royal">Royal Gold 👑</option><option value="rainbow">Rainbow 🌈</option><option value="romantic">Romantic Pink 💗</option></select></div>
-<div class="field"><label for="color1">8. MAIN COLOUR</label><input id="color1" type="color" value="#ff65ad"></div>
-<div class="field"><label for="color2">9. SECOND COLOUR</label><input id="color2" type="color" value="#ffc95e"></div></div>
-<button class="btn wide" id="createBtn" disabled>✨ Create Animated Surprise</button><div class="small">Photo isi browser mein process hoti hai; server par upload nahi hoti.</div></section>
-<section id="result"><div class="brand">Your surprise is ready ✨</div>
-<div class="poster" id="poster"><div class="posterInner" id="posterInner"><div class="sparkles"></div><div class="wishTop" id="outHeading">Happy Birthday!</div><div class="wishPhoto"><img id="outPhoto" alt="Selected photo"></div><div class="wishMessage" id="outMessage"></div><div class="wishFrom" id="outFrom"></div></div></div>
-<div class="resultActions"><button class="btn" id="downloadBtn">⬇ Download Image</button><button class="btn" id="shareImageBtn">WhatsApp Share Image ↗</button><button class="secondary" id="shareBtn">Share Website Link</button><button class="secondary" id="editBtn">Edit Wishes ✎</button><button class="secondary" id="againBtn">New Photo ↻</button></div>
-<p class="note">Download Image se poster PNG file ke roop mein save hoga. WhatsApp Share Image supported browser/device par kaam karega; warna pehle image download karke WhatsApp mein attach karein.</p>
-</section></main>
+:root{--pink:#ff4fa3;--gold:#ffd166;--violet:#9b7bff;--ink:#160d2a;--poster-bg:#211137}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;color:#fff;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;background:radial-gradient(ellipse at 12% 0%,#54245d 0,transparent 42%),radial-gradient(ellipse at 90% 80%,#292c70 0,transparent 38%),linear-gradient(145deg,#100817,#1d102d 55%,#100817);overflow-x:hidden}
+button,input,select,textarea{font:inherit}
+button{cursor:pointer}
+.shell{width:min(1120px,100%);margin:auto;padding:24px 14px 50px;position:relative;z-index:1}
+.topbar{text-align:center;margin:4px auto 24px}
+.brand{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#ffe3a8;font-weight:800}
+h1{font-size:clamp(2rem,7vw,3.5rem);line-height:1.03;margin:13px 0;background:linear-gradient(95deg,#fff,#ffd166,#ff67b5,#c5b7ff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{max-width:660px;margin:0 auto;color:#e7d9f0;font-size:14px;line-height:1.7}
+.layout{display:grid;grid-template-columns:minmax(0,1fr);gap:18px;align-items:start}
+.panel{background:linear-gradient(145deg,#ffffff16,#ffffff07);border:1px solid #ffffff24;border-radius:24px;padding:19px;box-shadow:0 20px 70px #0005;backdrop-filter:blur(10px)}
+.panel h2{font-size:16px;margin:0 0 14px}
+.grid{display:grid;grid-template-columns:1fr;gap:13px}
+.field{display:flex;flex-direction:column;gap:7px;min-width:0}
+.field label,.section-label{font-size:11px;font-weight:800;letter-spacing:.05em;color:#f4d9f0}
+.field input,.field select,.field textarea{width:100%;min-width:0;border:1px solid #ffffff2c;border-radius:12px;padding:12px;color:#fff;background:#190f2b;outline:none}
+.field textarea{min-height:86px;resize:vertical}
+.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--pink);box-shadow:0 0 0 3px #ff4fa322}
+.field input[type=color]{height:44px;padding:4px}
+.field input[type=range]{padding:0;accent-color:var(--pink)}
+.field input[type=checkbox]{width:auto;accent-color:var(--pink)}
+.upload{border:1px dashed #ffb9d8aa;background:#ffffff08;border-radius:16px;padding:18px;text-align:center}
+.upload .emoji{font-size:30px}
+.upload p{font-size:12px;color:#e7d9f0;margin:6px 0 12px}
+.upload input{max-width:100%;font-size:12px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:11px}
+.three{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}
+.section{border-top:1px solid #ffffff1a;margin-top:17px;padding-top:16px}
+.btn{border:0;border-radius:999px;padding:13px 17px;background:linear-gradient(100deg,var(--gold),var(--pink),#b5a2ff);color:#29102e;font-weight:900;font-size:13px;box-shadow:0 8px 25px #ff65ad30}
+.btn:disabled{opacity:.4;cursor:not-allowed}
+.secondary{border:1px solid #ffffff38;border-radius:999px;padding:11px 14px;color:#fff;background:#ffffff0b;font-size:12px}
+.wide{width:100%;margin-top:16px}
+.tiny{font-size:11px;color:#cbb8d9;line-height:1.6}
+.preview-panel{position:relative}
+.preview-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:12px}
+.preview-head h2{margin:0}
+.poster-wrap{display:flex;justify-content:center;padding:4px}
+.poster{--frame-a:#ffd166;--frame-b:#ff4fa3;--frame-c:#9b7bff;width:min(100%,390px);aspect-ratio:4/5;position:relative;padding:9px;border-radius:25px;background:linear-gradient(135deg,var(--frame-a),var(--frame-b),var(--frame-c));box-shadow:0 18px 48px #0008;overflow:hidden;isolation:isolate}
+.poster:before{content:"";position:absolute;inset:4px;border:1px solid #ffffff8c;border-radius:20px;pointer-events:none;z-index:5}
+.poster-inner{position:relative;width:100%;height:100%;border-radius:18px;overflow:hidden;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding:7% 6% 5%;background:radial-gradient(circle at 15% 12%,#ffffff22,transparent 30%),linear-gradient(145deg,#28143d,#120c25 65%,#35143a);text-align:center}
+.poster-bg{position:absolute;inset:0;z-index:0;pointer-events:none;opacity:.38;background-image:radial-gradient(#fff 1px,transparent 1.5px),radial-gradient(var(--gold) 1px,transparent 1.5px);background-size:34px 39px,59px 61px;background-position:0 0,18px 12px}
+.poster-heading{position:relative;z-index:2;font-weight:950;line-height:1.05;font-size:clamp(23px,5.2vw,34px);overflow-wrap:anywhere;white-space:pre-wrap;margin:3px 0 12px;color:#ffd166;text-shadow:0 3px 14px #0008}
+.photo-frame{position:relative;z-index:2;width:68%;max-height:56%;aspect-ratio:4/5;padding:5px;background:linear-gradient(135deg,var(--frame-a),var(--frame-b),var(--frame-c));border-radius:20px;box-shadow:0 10px 28px #0008;flex-shrink:1;min-height:0}
+.photo-frame img{display:block;width:100%;height:100%;object-fit:cover;border-radius:14px}
+.poster-message{position:relative;z-index:2;font-size:clamp(14px,3.5vw,19px);line-height:1.35;font-weight:800;white-space:pre-wrap;overflow-wrap:anywhere;margin:13px 0 4px;color:#fff;text-shadow:0 2px 10px #0009}
+.poster-from{position:relative;z-index:2;font-size:12px;line-height:1.3;color:#fff;margin-top:auto;padding-top:8px;text-shadow:0 2px 8px #0009;overflow-wrap:anywhere}
+.poster-badge{position:absolute;z-index:3;top:12px;right:12px;font-size:22px;filter:drop-shadow(0 2px 4px #0008)}
+.poster-footer{position:relative;z-index:2;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:#ffffffb8;margin-top:7px}
+.frame-classic{border-radius:25px}
+.frame-classic .poster-inner{border-radius:18px}
+.frame-gold{background:linear-gradient(135deg,#fff2b2,#bd8628,#fff0a0,#8b5b13);padding:11px}
+.frame-gold:before{inset:6px;border:2px solid #fff0b5}
+.frame-rose{background:linear-gradient(135deg,#ffd1e5,#e72c82,#ff9fce);padding:10px}
+.frame-rose:before{border:2px solid #ffe8f4}
+.frame-neon{background:linear-gradient(135deg,#00f5ff,#8a2eff,#ff2fa8);box-shadow:0 0 35px #8a2eff88}
+.frame-neon:before{border:1px solid #8affff}
+.frame-minimal{background:#f8f0e6;padding:8px;border-radius:4px}
+.frame-minimal:before{inset:4px;border:1px solid #9b7655;border-radius:2px}
+.frame-minimal .poster-inner{border-radius:0}
+.frame-floral{background:linear-gradient(135deg,#ffb6d5,#ffe9a9,#9ce5cb,#d4b9ff)}
+.frame-floral:before{content:"✿  ✧  ❀  ✧  ✿";inset:5px;border:0;border-radius:20px;color:#fff;font-size:16px;letter-spacing:8px;padding:4px;display:flex;justify-content:space-between;align-items:flex-start}
+.frame-film{background:linear-gradient(135deg,#ece4d7,#a49b8f,#f7f0e6);padding:8px}
+.frame-film:before{inset:5px;border:1px dashed #55483b;border-radius:18px}
+.filter-none{filter:none}.filter-bright{filter:brightness(1.13) saturate(1.2)}.filter-warm{filter:sepia(.22) saturate(1.35) contrast(1.04)}.filter-cool{filter:saturate(.9) hue-rotate(12deg) brightness(1.04)}.filter-bw{filter:grayscale(1) contrast(1.08)}.filter-vintage{filter:sepia(.42) saturate(.8) contrast(.92) brightness(1.04)}.filter-dream{filter:saturate(1.25) brightness(1.08) contrast(.94)}.filter-drama{filter:contrast(1.25) saturate(1.15) brightness(.92)}.filter-sunset{filter:sepia(.25) saturate(1.55) hue-rotate(-8deg) brightness(1.04)}
+.result-actions{display:flex;flex-wrap:wrap;justify-content:center;gap:9px;margin-top:15px}
+.status{text-align:center;min-height:18px;margin-top:10px}
+.footer{text-align:center;color:#cbb8d9;font-size:11px;line-height:1.7;margin-top:18px}
+.hidden{display:none!important}
+body:after{content:"";position:fixed;inset:0;pointer-events:none;opacity:.12;background-image:radial-gradient(#fff .7px,transparent .9px);background-size:31px 31px}
+@media(min-width:800px){.layout{grid-template-columns:minmax(0,1.05fr) minmax(360px,.95fr)}.preview-panel{position:sticky;top:15px}.grid{grid-template-columns:1fr 1fr}.span2{grid-column:1/-1}.shell{padding-top:30px}.poster{width:min(100%,420px)}}
+@media(max-width:390px){.panel{padding:14px}.three{grid-template-columns:1fr 1fr}.poster{padding:7px}.poster-heading{font-size:22px}}
+/* Export-safe colors and effects: avoid transparent gradient text disappearing in PNG */
+.poster.exporting *{animation:none!important;transition:none!important;filter:none!important}
+.poster.exporting .poster-heading,.poster.exporting .poster-message,.poster.exporting .poster-from,.poster.exporting .poster-footer{background:none!important;-webkit-background-clip:border-box!important;background-clip:border-box!important;-webkit-text-fill-color:currentColor!important;text-shadow:none!important}
+.poster.exporting .poster-heading{color:#ffd166!important}
+.poster.exporting .poster-message{color:#ffffff!important}
+.poster.exporting .poster-from{color:#ffffff!important}
+.poster.exporting .poster-footer{color:#eeeeee!important}
+@media(prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;animation-iteration-count:1!important}}
+</style>
+</head>
+<body>
+<main class="shell">
+<header class="topbar">
+  <div class="brand">✨ PHOTO WISHES STUDIO PRO ✨</div>
+  <h1>Make Your Wishes Magical</h1>
+  <p class="lead">Apni favourite photo upload karein, filter aur frame choose karein, apna message likhein aur high-quality poster download karke WhatsApp par share karein.</p>
+</header>
+<div class="layout">
+<section class="panel" id="editor">
+  <h2>🎨 Apna poster customize karein</h2>
+  <div class="grid">
+    <div class="field span2">
+      <label>1. APNI PHOTO CHOOSE KAREIN</label>
+      <div class="upload"><div class="emoji">📸 💖</div><p>Photo aapke browser mein hi process hoti hai — server par upload nahi hoti.</p><input id="photoInput" type="file" accept="image/*"></div>
+      <div class="tiny" id="fileName">Abhi koi photo select nahi hui.</div>
+    </div>
+    <div class="field"><label for="preset">2. WISH OCCASION</label><select id="preset">
+      <option value="custom">✨ Custom Wishes</option><option value="birthday">🎂 Birthday</option><option value="anniversary">💞 Anniversary</option><option value="love">❤️ Love / Romantic</option><option value="diwali">🪔 Diwali</option><option value="holi">🌈 Holi</option><option value="newyear">🎉 New Year</option><option value="wedding">💍 Wedding</option><option value="congrats">🎊 Congratulations</option><option value="goodmorning">☀️ Good Morning</option><option value="thankyou">🙏 Thank You</option><option value="festival">🪷 Festival Wishes</option><option value="sorry">🥺 Sorry</option><option value="friendship">🫶 Friendship</option>
+    </select></div>
+    <div class="field"><label for="recipient">3. RECIPIENT NAME</label><input id="recipient" maxlength="50" placeholder="Jaise: Meri Jaan / Rahul"></div>
+    <div class="field span2"><label for="headline">4. POSTER HEADING</label><input id="headline" maxlength="75" value="Happy Birthday! 🎂" placeholder="Apni heading likhein"></div>
+    <div class="field span2"><label for="message">5. WISH MESSAGE</label><textarea id="message" maxlength="300">Tumhari zindagi khushiyon, pyaar aur kamyabi se bhari rahe. Hamesha muskurate raho! ❤️</textarea></div>
+    <div class="field"><label for="sender">6. FROM / SENDER NAME</label><input id="sender" maxlength="50" placeholder="Pyaar ke saath..."></div>
+    <div class="field"><label for="style">7. POSTER THEME</label><select id="style"><option value="glow">✨ Neon Glow</option><option value="royal">👑 Royal Gold</option><option value="rainbow">🌈 Rainbow Pop</option><option value="romantic">💗 Romantic Pink</option><option value="ocean">🌊 Ocean Blue</option><option value="emerald">💚 Emerald</option></select></div>
+    <div class="field"><label for="filter">8. PHOTO FILTER</label><select id="filter"><option value="none">Original</option><option value="bright">Bright & Vibrant</option><option value="warm">Warm Glow</option><option value="cool">Cool Tone</option><option value="bw">Black & White</option><option value="vintage">Vintage</option><option value="dream">Dreamy Soft</option><option value="drama">Dramatic</option><option value="sunset">Sunset Warmth</option></select></div>
+    <div class="field"><label for="frame">9. FRAME DESIGN</label><select id="frame"><option value="classic">🌈 Classic Gradient</option><option value="gold">👑 Royal Gold</option><option value="rose">🌹 Rose Pink</option><option value="neon">💜 Neon Glow</option><option value="minimal">🤍 Minimal Elegant</option><option value="floral">🌸 Floral Pastel</option><option value="film">🎞️ Film Border</option></select></div>
+    <div class="field"><label for="badge">10. DECORATION</label><select id="badge"><option value="✨">✨ Sparkle</option><option value="❤️">❤️ Heart</option><option value="🎉">🎉 Celebration</option><option value="🌸">🌸 Flower</option><option value="👑">👑 Crown</option><option value="🪔">🪔 Diya</option><option value="🦋">🦋 Butterfly</option><option value="">No badge</option></select></div>
+    <div class="field"><label for="photoPosition">11. PHOTO POSITION</label><select id="photoPosition"><option value="center">Center</option><option value="top">Top</option><option value="bottom">Bottom</option><option value="left">Left</option><option value="right">Right</option></select></div>
+    <div class="field"><label for="color1">12. FRAME COLOUR 1</label><input id="color1" type="color" value="#ffd166"></div>
+    <div class="field"><label for="color2">13. FRAME COLOUR 2</label><input id="color2" type="color" value="#ff4fa3"></div>
+  </div>
+  <button class="btn wide" id="createBtn" disabled>✨ Update Poster Preview</button>
+  <div class="tiny" style="margin-top:10px">Tip: Best result ke liye clear, high-resolution photo use karein. PNG export HD (3×) quality mein banega.</div>
+</section>
+<section class="panel preview-panel">
+  <div class="preview-head"><h2>🪄 Live Poster Preview</h2><span class="tiny">Portrait 4:5</span></div>
+  <div class="poster-wrap">
+    <div class="poster frame-classic" id="poster">
+      <div class="poster-inner" id="posterInner">
+        <div class="poster-bg"></div>
+        <div class="poster-badge" id="outBadge">✨</div>
+        <div class="poster-heading" id="outHeading">Happy Birthday! 🎂</div>
+        <div class="photo-frame" id="photoFrame"><img id="outPhoto" class="filter-none" alt="Aapki selected photo"></div>
+        <div class="poster-message" id="outMessage">Tumhari zindagi khushiyon, pyaar aur kamyabi se bhari rahe. Hamesha muskurate raho! ❤️</div>
+        <div class="poster-from" id="outFrom">Dil se shubhkamnayein ❤️</div>
+        <div class="poster-footer">Made with love • Photo Wishes Studio</div>
+      </div>
+    </div>
+  </div>
+  <div class="result-actions">
+    <button class="btn" id="downloadBtn" disabled>⬇ Download HD PNG</button>
+    <button class="btn" id="shareImageBtn" disabled>WhatsApp Share ↗</button>
+    <button class="secondary" id="shareLinkBtn">Share Website Link</button>
+  </div>
+  <div class="status tiny" id="status" role="status" aria-live="polite">Pehle apni photo select karein.</div>
+  <div class="footer">🔒 Privacy-friendly: photo aapke device se bahar nahi jaati. Export ke liye internet zaroori hai, kyunki PNG renderer CDN se load hota hai.</div>
+</section>
+</div>
+</main>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 <script>
-const $=id=>document.getElementById(id);let photoURL=null;
-const presets={custom:{h:'Your Special Wishes ✨',m:'Apni taraf se ek special message likhein ❤️'},birthday:{h:'Happy Birthday! 🎂',m:'Tumhari zindagi khushiyon, pyaar aur kamyabi se bhari rahe. Hamesha muskurate raho! ❤️'},anniversary:{h:'Happy Anniversary 💞',m:'Aap dono ka saath hamesha pyaar aur khushiyon se bhara rahe. ❤️'},love:{h:'I Love You ❤️',m:'Har din tumhare saath ek khoobsurat kahani jaisa lagta hai. Tum mere liye special ho!'},diwali:{h:'Happy Diwali 🪔',m:'Diwali ki roshni aapki zindagi mein sukh, samriddhi aur khushiyan laaye. ✨'},holi:{h:'Happy Holi 🌈',m:'Rangon ki tarah aapki zindagi bhi pyaar aur khushiyon se rangeen rahe!'},newyear:{h:'Happy New Year 🎉',m:'Naya saal naye sapne, nayi umeedein aur dher saari khushiyan laaye!'},wedding:{h:'Congratulations 💍',m:'Aapki nayi zindagi pyaar, bharose aur khushiyon se bhari rahe.'},congrats:{h:'Congratulations! 🎊',m:'Aapki mehnat aur kamyabi ke liye dil se bahut bahut badhai!'},goodmorning:{h:'Good Morning ☀️',m:'Aapka din muskurahat, sukoon aur achhi khabron se bhara ho.'},thankyou:{h:'Thank You 🙏',m:'Aapki kindness aur pyaar mere liye bahut maayne rakhte hain. Dil se shukriya!'}};
-$('preset').addEventListener('change',()=>{let p=presets[$('preset').value];$('headline').value=p.h;$('message').value=p.m});
-$('photoInput').addEventListener('change',()=>{let f=$('photoInput').files[0];if(!f)return;if(!f.type.startsWith('image/'))return alert('Please select an image.');if(photoURL)URL.revokeObjectURL(photoURL);photoURL=URL.createObjectURL(f);$('fileName').textContent='Selected: '+f.name;$('createBtn').disabled=false});
-function confetti(n=50){for(let i=0;i<n;i++)setTimeout(()=>{let e=document.createElement('span');e.className='float';e.textContent=['♥','♡','✦','✨','🎉','❤'][Math.floor(Math.random()*6)];e.style.left=Math.random()*100+'vw';e.style.fontSize=(14+Math.random()*25)+'px';e.style.color=[$('color1').value,$('color2').value,'#ffffff','#c4b5fd'][Math.floor(Math.random()*4)];e.style.animationDuration=(4+Math.random()*5)+'s';document.body.appendChild(e);setTimeout(()=>e.remove(),9500)},i*45)}
-function applyStyle(){let a=$('color1').value,b=$('color2').value,s=$('style').value;if(s==='royal'){a='#ffd166';b='#fff0b3'}if(s==='rainbow'){a='#61dafb';b='#ff7ac8'}if(s==='romantic'){a='#ff5fa2';b='#ffc1dc'}document.documentElement.style.setProperty('--a',a);document.documentElement.style.setProperty('--b',b)}
-$('createBtn').addEventListener('click',()=>{if(!photoURL)return;applyStyle();$('outPhoto').src=photoURL;$('outHeading').textContent=$('headline').value.trim()||'A Special Wish ✨';let r=$('recipient').value.trim();$('outMessage').textContent=(r?r+',\n':'')+($('message').value.trim()||'Dil se dher saari wishes! ❤️');$('outFrom').textContent=$('sender').value.trim()?'— '+$('sender').value.trim():'Made with love ❤️';$('maker').style.display='none';$('result').style.display='block';confetti();window.scrollTo({top:0,behavior:'smooth'})});
-async function posterBlob(){if(!window.html2canvas)throw new Error('Image export library load nahi hui. Internet connection check karein.');let node=$('poster');let canvas=await html2canvas(node,{backgroundColor:null,scale:2,useCORS:true,logging:false});return await new Promise((resolve,reject)=>canvas.toBlob(b=>b?resolve(b):reject(new Error('Image create nahi hui')), 'image/png'))}
-$('downloadBtn').addEventListener('click',async()=>{let b=$('downloadBtn');b.disabled=true;b.textContent='Creating image…';try{let blob=await posterBlob();let url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='my-photo-wish.png';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1500)}catch(e){alert(e.message+' — screenshot le sakte hain.')}finally{b.disabled=false;b.textContent='⬇ Download Image'}});
-$('shareImageBtn').addEventListener('click',async()=>{let b=$('shareImageBtn');b.disabled=true;b.textContent='Preparing…';try{let blob=await posterBlob();let file=new File([blob],'my-photo-wish.png',{type:'image/png'});if(navigator.canShare&&navigator.canShare({files:[file]})&&navigator.share){await navigator.share({files:[file],title:$('outHeading').textContent,text:'Made with Photo Wishes Studio ✨'})}else{let url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='my-photo-wish.png';a.click();setTimeout(()=>URL.revokeObjectURL(url),1500);alert('Image download ho gayi. Ab WhatsApp kholkar photo attach karke bhej dein.')}}catch(e){if(e.name!=='AbortError')alert('Image share nahi ho payi. Download Image button use karein.')}finally{b.disabled=false;b.textContent='WhatsApp Share Image ↗'}});
-$('shareBtn').addEventListener('click',async()=>{try{if(navigator.share)await navigator.share({title:document.title,text:'Create your own colourful photo wish! ✨',url:location.href});else{await navigator.clipboard.writeText(location.href);alert('Website link copied! WhatsApp mein paste karein.')}}catch(e){}});
-$('editBtn').addEventListener('click',()=>{$('result').style.display='none';$('maker').style.display='block';window.scrollTo({top:0,behavior:'smooth'})});
-$('againBtn').addEventListener('click',()=>{$('photoInput').value='';if(photoURL)URL.revokeObjectURL(photoURL);photoURL=null;$('fileName').textContent='Photo select nahi hui';$('createBtn').disabled=true;$('result').style.display='none';$('maker').style.display='block';window.scrollTo({top:0,behavior:'smooth'})});
-</script></body></html>
+const $ = id => document.getElementById(id);
+let photoURL = null;
+const presetData = {
+  custom:{h:'Your Special Wishes ✨',m:'Apni taraf se ek special message likhein ❤️'},
+  birthday:{h:'Happy Birthday! 🎂',m:'Tumhari zindagi khushiyon, pyaar aur kamyabi se bhari rahe. Hamesha muskurate raho! ❤️'},
+  anniversary:{h:'Happy Anniversary 💞',m:'Aap dono ka saath hamesha pyaar aur khushiyon se bhara rahe. ❤️'},
+  love:{h:'I Love You ❤️',m:'Har din tumhare saath ek khoobsurat kahani jaisa lagta hai. Tum mere liye bahut special ho!'},
+  diwali:{h:'Happy Diwali 🪔',m:'Diwali ki roshni aapki zindagi mein sukh, samriddhi aur khushiyan laaye. ✨'},
+  holi:{h:'Happy Holi 🌈',m:'Rangon ki tarah aapki zindagi bhi pyaar aur khushiyon se rangeen rahe!'},
+  newyear:{h:'Happy New Year 🎉',m:'Naya saal naye sapne, nayi umeedein aur dher saari khushiyan laaye!'},
+  wedding:{h:'Best Wishes 💍',m:'Aapki nayi zindagi pyaar, bharose aur khushiyon se bhari rahe.'},
+  congrats:{h:'Congratulations! 🎊',m:'Aapki mehnat aur kamyabi ke liye dil se bahut bahut badhai!'},
+  goodmorning:{h:'Good Morning ☀️',m:'Aapka din muskurahat, sukoon aur achhi khabron se bhara ho.'},
+  thankyou:{h:'Thank You 🙏',m:'Aapki kindness aur pyaar mere liye bahut maayne rakhte hain. Dil se shukriya!'},
+  festival:{h:'Happy Festival 🪷',m:'Yeh shubh avsar aapke ghar mein sukh, shanti aur samriddhi laaye.'},
+  sorry:{h:'I Am Sorry 🥺',m:'Meri baat se aapko dukh hua ho toh dil se maafi chahta/chahti hoon.'},
+  friendship:{h:'Best Friends Forever 🫶',m:'Dosti ka yeh rishta hamesha muskurahat aur yaadon se bhara rahe!'}
+};
+function setStatus(msg){$('status').textContent=msg}
+function applyTheme(){
+  const theme=$('style').value;
+  let a=$('color1').value,b=$('color2').value,c='#9b7bff',bg='#211137';
+  if(theme==='royal'){a='#ffd166';b='#fff0b3';c='#8b5e16';bg='#241a12'}
+  if(theme==='rainbow'){a='#61dafb';b='#ff7ac8';c='#b7ff9b';bg='#17142f'}
+  if(theme==='romantic'){a='#ff5fa2';b='#ffc1dc';c='#a85cf5';bg='#32132b'}
+  if(theme==='ocean'){a='#52d6ff';b='#477bff';c='#72ffe0';bg='#0d203b'}
+  if(theme==='emerald'){a='#7df0b1';b='#d8ff86';c='#23a78b';bg='#102b28'}
+  document.documentElement.style.setProperty('--frame-a',a);
+  document.documentElement.style.setProperty('--frame-b',b);
+  document.documentElement.style.setProperty('--frame-c',c);
+  document.documentElement.style.setProperty('--poster-bg',bg);
+  $('posterInner').style.background=`radial-gradient(circle at 15% 12%,#ffffff22,transparent 30%),linear-gradient(145deg,${bg},#120c25 65%,${bg})`;
+}
+function updatePoster(){
+  applyTheme();
+  const r=$('recipient').value.trim();
+  $('outHeading').textContent=$('headline').value.trim()||'A Special Wish ✨';
+  $('outMessage').textContent=(r?r+',\n':'')+($('message').value.trim()||'Dil se dher saari wishes! ❤️');
+  $('outFrom').textContent=$('sender').value.trim()?'— '+$('sender').value.trim():'Dil se shubhkamnayein ❤️';
+  $('outBadge').textContent=$('badge').value;
+  $('outPhoto').className='filter-'+$('filter').value;
+  $('poster').className='poster frame-'+$('frame').value;
+  const pos=$('photoPosition').value;
+  $('outPhoto').style.objectPosition=({center:'center',top:'center top',bottom:'center bottom',left:'left center',right:'right center'})[pos]||'center';
+  if($('photoInput').files[0]) $('downloadBtn').disabled=false;
+  if($('photoInput').files[0]) $('shareImageBtn').disabled=false;
+}
+$('preset').addEventListener('change',()=>{
+  const p=presetData[$('preset').value]||presetData.custom;
+  $('headline').value=p.h;$('message').value=p.m;updatePoster();
+});
+['headline','message','recipient','sender','style','filter','frame','badge','photoPosition','color1','color2'].forEach(id=>{
+  $(id).addEventListener('input',updatePoster);
+  $(id).addEventListener('change',updatePoster);
+});
+$('photoInput').addEventListener('change',()=>{
+  const f=$('photoInput').files && $('photoInput').files[0];
+  if(!f)return;
+  if(!f.type.startsWith('image/')){alert('Please choose an image file.');return}
+  if(photoURL)URL.revokeObjectURL(photoURL);
+  photoURL=URL.createObjectURL(f);
+  $('outPhoto').onload=()=>{updatePoster();$('downloadBtn').disabled=false;$('shareImageBtn').disabled=false;setStatus('Photo ready! Filter aur frame choose karein, phir HD PNG download karein.')};
+  $('outPhoto').src=photoURL;
+  $('fileName').textContent='Selected: '+f.name;
+  updatePoster();
+});
+$('createBtn').addEventListener('click',()=>{updatePoster();setStatus('Poster preview update ho gaya ✨')});
+async function waitForImageAndFonts(){
+  if(document.fonts&&document.fonts.ready)await document.fonts.ready;
+  const img=$('outPhoto');
+  if(img.src){
+    if(img.decode){try{await img.decode()}catch(e){}}
+    else if(!img.complete)await new Promise((resolve,reject)=>{img.onload=resolve;img.onerror=reject});
+  }
+  await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)));
+}
+async function posterBlob(){
+  if(!window.html2canvas)throw new Error('PNG renderer load nahi hua. Internet connection check karein aur page refresh karein.');
+  if(!$('outPhoto').src)throw new Error('Pehle photo select karein.');
+  updatePoster();
+  await waitForImageAndFonts();
+  const node=$('poster');
+  node.classList.add('exporting');
+  try{
+    await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)));
+    const canvas=await html2canvas(node,{
+      backgroundColor:null,scale:3,useCORS:true,allowTaint:false,logging:false,
+      imageTimeout:20000,scrollX:0,scrollY:0,
+      width:node.offsetWidth,height:node.offsetHeight,
+      onclone:doc=>{
+        const clone=doc.getElementById('poster');
+        if(clone)clone.classList.add('exporting');
+      }
+    });
+    return await new Promise((resolve,reject)=>canvas.toBlob(blob=>blob?resolve(blob):reject(new Error('PNG create nahi hui. Browser memory kam ho sakti hai.')),'image/png'));
+  }finally{node.classList.remove('exporting')}
+}
+async function downloadPoster(){
+  const blob=await posterBlob();
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement('a');a.href=url;a.download='photo-wishes-hd.png';document.body.appendChild(a);a.click();a.remove();
+  setTimeout(()=>URL.revokeObjectURL(url),5000);
+  return blob;
+}
+$('downloadBtn').addEventListener('click',async()=>{
+  const b=$('downloadBtn');b.disabled=true;b.textContent='Creating HD PNG…';setStatus('High-quality image ban rahi hai…');
+  try{await downloadPoster();setStatus('HD PNG download ho gayi. ✨')}
+  catch(e){alert(e.message);setStatus('Export nahi ho paya. Page refresh karke dobara try karein.')}
+  finally{b.disabled=!photoURL;b.textContent='⬇ Download HD PNG'}
+});
+$('shareImageBtn').addEventListener('click',async()=>{
+  const b=$('shareImageBtn');b.disabled=true;b.textContent='Preparing…';setStatus('Share ke liye HD PNG prepare ho rahi hai…');
+  try{
+    const blob=await posterBlob();
+    const file=new File([blob],'photo-wishes-hd.png',{type:'image/png'});
+    if(navigator.share&&navigator.canShare&&navigator.canShare({files:[file]})){
+      await navigator.share({files:[file],title:$('outHeading').textContent,text:'Maine apne liye ek wish poster banaya ✨'});
+      setStatus('Share menu open ho gaya.');
+    }else{
+      const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='photo-wishes-hd.png';a.click();setTimeout(()=>URL.revokeObjectURL(url),5000);
+      setStatus('PNG download ho gayi. WhatsApp mein attach karein; best quality ke liye Document ke roop mein bhejein.');
+      alert('HD image download ho gayi. WhatsApp mein photo ko Document ke roop mein attach karein, taaki compression kam ho.');
+    }
+  }catch(e){if(e.name!=='AbortError'){alert(e.message||'Share nahi ho paya. Download button try karein.');setStatus('Share cancel ya fail hua.')}}
+  finally{b.disabled=!photoURL;b.textContent='WhatsApp Share ↗'}
+});
+$('shareLinkBtn').addEventListener('click',async()=>{
+  try{
+    if(navigator.share)await navigator.share({title:document.title,text:'Apni photo se beautiful wishes poster banayein ✨',url:location.href});
+    else if(navigator.clipboard&&navigator.clipboard.writeText){await navigator.clipboard.writeText(location.href);alert('Website link copy ho gaya. WhatsApp mein paste karein.')}
+    else{prompt('Website link copy karein:',location.href)}
+  }catch(e){}
+});
+updatePoster();
+</script>
+</body>
+</html>
